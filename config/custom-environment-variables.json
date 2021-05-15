@@ -1,0 +1,6 @@
+{
+    "mail":{
+        "password":"notes_password"
+    },
+    "jwtPrivateKey":"movies_jwtPrivateKey"
+}

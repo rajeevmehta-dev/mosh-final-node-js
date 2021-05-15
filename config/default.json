@@ -1,0 +1,10 @@
+{
+    "name":"The App is in Default",
+    "mail":{
+        
+        "email":"default@mail.com"
+
+    },
+    "dbPath":"mongodb://localhost/Mosh"
+    
+}

@@ -1,0 +1,37 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "Mosh Movies",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --verbose",
+    
+    "start": "node server.js"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "engines":{
+    "node":"v12.4.0"
+  },
+  "author": "adesh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.2",
+    "fawn": "^2.1.5",
+    "joi": "^14.3.1",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "winston": "^2.4.4",
+    "winston-mongodb": "^3.0.0"
+  },
+  "devDependencies": {
+    "supertest": "^4.0.2",
+    "jest": "^24.8.0"
+  }
+}
